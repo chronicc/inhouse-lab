@@ -3,7 +3,13 @@ name = "inhouse-lab"
 version = "0.1.0"
 description = "Spawn test environments with vms."
 authors = ["Thomas Steinert <hello@chroni.cc>"]
+readme = "README.md"
 license = "MIT"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
